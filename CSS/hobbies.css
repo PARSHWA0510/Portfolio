@@ -1,0 +1,84 @@
+
+
+body
+{
+    background-image: url("../images/productive-hobbies.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container ul>li>a 
+{
+  color: blanchedalmond;
+}
+
+
+  h1 
+  { text-align: center;
+    color: linen; 
+    margin-top: 100px;
+  }   
+  body 
+  { font-size: x-large; 
+  } 
+  .box
+  { background-color : rgba(0, 0, 0, 0.833); 
+    color: white; 
+    border-radius: 25px; 
+    padding: 35px;
+    width: 32%;
+    min-height: 42%;
+    float: left;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+
+  .box div>p{
+    text-align: justify;
+  }
+
+  .inside-box
+  { background-color: rgba(78, 19, 19, 0.541); 
+    color: white; 
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    min-height: 400px;
+  } 
+
+
+.container li:hover
+{
+		
+    background-color: rgba(68, 185, 185, 0.582);
+    border-radius: 5px;
+    transition-timing-function: ease ;
+    transition: 0.6s;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+.inside-box>li>a{  
+  text-decoration: none;
+  color: wheat;
+  font-size: 30px;
+}
+
+.inside-box>li :hover{
+  color: white;
+  background: rgba(21, 104, 83, 0.725);
+  cursor: pointer;
+  padding: 8px;
+}
+
+
+@media screen and (max-width : 800px)
+{
+    .container ul>li
+    {
+      width: 100%;
+    }
+    
+}

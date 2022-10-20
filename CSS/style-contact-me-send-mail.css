@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin-bottom: 100px;
+    margin-top: 200px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+  .alert-error{
+    z-index: 1; /* specifies stack ordrer of element */
+    background: #FFF3CD;
+    font-size: 22px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 20%;
+    border-left: 8px solid #6d190a;
+    border-radius: 4px;
+  }

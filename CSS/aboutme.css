@@ -1,0 +1,119 @@
+
+body{
+    background: url("../images/aboutme-bg1.png") no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 9%;
+    font-size: 60px;
+}
+
+header .container ul>li>a 
+{
+  color: blanchedalmond;
+}
+
+header .container ul>li:hover{
+    background: rgba(211, 211, 211, 0.473);
+}
+
+tr:hover {background-color:rgba(146, 135, 135, 0.568);}
+
+.max-width{
+    max-width: 100%;
+    padding: 0 100px;
+    margin-left: 600px;
+}
+
+.image img{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    border-radius: 20px; 
+    width: 550px; 
+    height: 650px;
+    margin-bottom: 20px;
+}
+
+
+.home{
+    height : 100%;;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width{
+    text-align: center;
+}
+
+.home .info-content table{
+    width: 100%;
+}
+
+.home .info-content table caption{
+    font-size: 50px;
+    color: linen;
+    font-family: 'Ubuntu',serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.home .info-content table tr{
+    font-size: 20px;
+    padding: 30px;
+    border: none ;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+.home .info-content table td{
+    font-size: 20px;
+    padding: 20px;
+    border:none;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    color: linen;
+}
+
+  @media screen and (max-width : 800px) {
+    .container ul>li{
+        width: 100%;
+    }
+
+
+    .max-width{
+        float: left;
+        margin-left: 0px;
+    }
+
+    .image img{
+        position: absolute;
+        left: 0px;
+        top: 450px;
+        border-radius: 20px; 
+        width: 100%; 
+        height: 420px;
+        margin-bottom: 20px;
+        /* background-image: url('/images/IMG_4180.JPG'); */
+    }
+
+    .home .info-content table tr{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+
+    .home .info-content table caption{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .max-width{
+        max-width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-top: 400px;
+    }
+    
+}

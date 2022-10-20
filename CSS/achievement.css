@@ -1,0 +1,106 @@
+.background{
+    background-image: url('https://st4.depositphotos.com/12985656/i/600/depositphotos_201348332-stock-photo-night-city-lights-bokeh-style.jpg');
+}
+
+.container li:hover
+{
+		
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 5px;
+    transition-timing-function: ease ;
+    transition: 0.6s;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+h1{
+    margin-top: 100px;
+    color: rgb(240, 240, 240);
+    text-decoration: underline rgb(71, 113, 204);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 35px; 
+
+    
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-decoration: powderblue underline;
+}
+
+.info-content table tr{
+    font-size: 20px;
+    padding: 80px;
+    border: none ;
+    border-spacing: 5px;
+    border-collapse: collapse;
+}
+ .info-content table td{
+    font-size: 30px;
+    padding: 10px;
+    padding-right: 200px;
+    border:none;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    color: linen;
+    margin-left: 30px;
+}
+
+.info-content table td>a{
+    color: rgb(248, 220, 192);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.info-content table td>a:hover{
+    cursor: pointer;
+    padding: 10px;
+    background: linen;
+    color: black;
+}
+
+tr:hover {background-color:rgba(19, 18, 18, 0.767);}
+
+
+.certificate{
+    padding-right: 5%;
+    width: 100%;
+}
+
+.box
+{
+background-color: rgb(0, 0, 75);
+color: white;
+border-radius: 25px;
+padding: 35px;
+min-height: 300px;
+margin-bottom: 40px;
+}
+
+.inside-box{
+    background: rgba(0, 0, 0, 0.597);
+    width: 100%;
+    color: white;
+    border-radius: 25px;
+    min-height: 300px;
+}
+
+.inside-box>li>a{  
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+}
+
+.inside-box>li{
+    margin-bottom: 11px;
+}
+
+.inside-box>li :hover{
+    color: rgb(0, 0, 0);
+    background: rgba(25, 170, 158, 0.725);
+    cursor: pointer;
+    padding: 8px;
+}
